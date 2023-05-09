@@ -1,0 +1,43 @@
+h2{
+    color:rgb(220, 31, 179)
+}
+.notify {
+    color: greenyellow;
+    border: solid 1px green;
+    background-color: greenyellow;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+    padding:20px;
+}
+.notify h2{
+    
+    color: black;
+}
+
+.errornotify {
+    
+    border: solid 1px rgb(210, 30, 27);
+    background-color: rgba(255, 0, 0, 0.361);
+    border-radius: 15px;
+    width: 200px;
+    margin: auto;
+    padding:20px;
+}
+.errornotify h2{
+    
+    color: black;
+}
+
+.blog {
+    border: solid 1px greenyellow;
+    border-radius: 15px;
+    margin:5px;
+    padding: 20px;
+    width: 200px;
+    overflow: scroll;
+}
+.blog  .removebutton{
+    background-color: red;
+    border-radius: 5px;
+}

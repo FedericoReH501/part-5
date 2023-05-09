@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlVzZXIyIiwiaWQiOiI2NDQ3OGUzZDBlNTk0N2EzN2UyZmFkMTIiLCJpYXQiOjE2ODI0MTQwMzh9.o6Mjw5_M3grc00YKpm5JJLW48KRlkzdryv7wujgeE60
+
+{
+    "title": "Blog 10",
+    "author": "bettina",
+    "url": "www.loremipsum.it",
+    "likes": 15
+}
